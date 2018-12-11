@@ -9,6 +9,9 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+/**
+ * Box that pops up if the user inputs something else than an integer for the number of vertices/edges input
+ */
 public class AlertBox {
 	
 	public static void display() {
