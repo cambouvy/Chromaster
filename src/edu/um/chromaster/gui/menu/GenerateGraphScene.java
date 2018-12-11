@@ -12,6 +12,12 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
+/**
+ * Scene appearing if the user wants to generate his own graph 
+ * It gives the user the choice to select the number of vertices, edges or both
+ * The choice is saved in the boolean variables from the ChosenVerticesOrEdges class
+ */
+
 public class GenerateGraphScene {
 	
 	public static Scene generateGraphScene(Stage window) {
