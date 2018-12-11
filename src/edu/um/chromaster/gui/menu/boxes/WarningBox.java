@@ -9,6 +9,11 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+/**
+ * Box that pops up if the user tries to color two adjacent vertices with the same color
+ * It warns the user that this is not possible
+ */
+
 public class WarningBox {
 
     public static void display() {
