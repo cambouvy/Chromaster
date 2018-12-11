@@ -9,6 +9,10 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+/**
+ * Box that pops up if the user clicks on the "Rules" button
+ * It describes how to play and the different game modes
+ */
 public class RulesBox {
 	
 	public static void display() {
