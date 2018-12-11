@@ -9,6 +9,11 @@ import javafx.stage.Stage;
 
 import java.util.Arrays;
 
+/**
+ * Scene in which the user can selected if he wants to play with a random graph, generate his own or import a graph from a text file
+ * If he chooses random graph the choice will be saved in the random boolean parameter from the ChosenVerticesOrEdges class
+ */
+
 public class GameModeScene {
 	
 	
