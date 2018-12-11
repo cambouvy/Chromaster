@@ -9,6 +9,11 @@ import javafx.stage.Stage;
 
 import java.util.Arrays;
 
+/**
+ * Scene in which the user can selected his preferred game mode
+ * The choice is saved in the boolean variables from the ChosenGameMode class
+ */
+
 public class MainScene {
 
 	public static Scene createMainScene(Stage window) {
